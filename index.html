@@ -42,9 +42,10 @@
         <div class="top-left box"> Click homework
             <img id="homework" src="http://clipart-library.com/images/8c6Lxer9i.jpg">
         </div>
-        .B1<button> click me</button>
+        <button> click me</button>
            
             <div class="top-right box">crumble homework <img id="crumble" src="https://previews.123rf.com/images/djvstock/djvstock1706/djvstock170605213/79943591-crumpled-paper-ball-doodle-icon-vector-illustration-graphic-design.jpg"></div>
+            <button> tap</button>
                  <div class="parent">
             <div class="bottom-left box">picture of trash can pops up<img id="trash" src="https://cdn1.vectorstock.com/i/1000x1000/90/20/cartoon-paper-trash-can-vector-22919020.jpg"></div>
             <div class="bottom-right box">throw homework away <img id="throw" src="https://previews.123rf.com/images/siridhata/siridhata1702/siridhata170200082/72234139-cartoon-crumpled-paper-and-trash-can-vector-illustration.jpg"> </div>
@@ -59,5 +60,18 @@
 /*__POPCODESTART__*/
 $("#homework").click(function() {
     $("#crumble").toggle();
+  
+    
+});
+$("#crumble").click(function() {
+   $("#throw").toggle();
+});
+
+$("#trash").click(function() {
+   $("#pilles").toggle();
+});
+
+$("#f").click(function() {
+   $("#pilles").toggle();
 });
 </script></body></html>
